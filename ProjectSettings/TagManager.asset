@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Obstacle
+  - Obstaculo
+  - Enfermo
   layers:
   - Default
   - TransparentFX
@@ -42,36 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Sky
-    uniqueID: 832885827
-    locked: 0
-  - name: BG
-    uniqueID: 2892471675
-    locked: 0
-  - name: BG1
-    uniqueID: 4112216889
-    locked: 0
-  - name: BG2
-    uniqueID: 2735826381
-    locked: 0
-  - name: BG3
-    uniqueID: 3197055089
-    locked: 0
-  - name: BG4
-    uniqueID: 482516865
-    locked: 0
-  - name: Ground
-    uniqueID: 410050403
-    locked: 0
-  - name: Title
-    uniqueID: 1619190525
-    locked: 0
   - name: UI
-    uniqueID: 3033139455
-    locked: 0
-  - name: Obstacles
-    uniqueID: 4124913827
-    locked: 0
-  - name: Player
-    uniqueID: 2014918581
+    uniqueID: 4110713465
     locked: 0

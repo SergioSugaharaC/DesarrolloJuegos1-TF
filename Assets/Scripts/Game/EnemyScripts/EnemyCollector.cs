@@ -18,7 +18,7 @@ public class EnemyCollector : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         GameObject Enemy = other.gameObject;
         Debug.Log(Enemy.tag);
-        if (Enemy.tag == "Obstacle"){
+        if (Enemy.tag == "Obstaculo" || Enemy.tag == "Enfermo"){
             Enemy.SetActive(false);
         }
     }
