@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour{
     private bool canJump = false;
     public float jumpForce;
     private Rigidbody2D body;
-    private int hp;
+    private int hp = 3;
     void Awake(){
         playerAnim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();

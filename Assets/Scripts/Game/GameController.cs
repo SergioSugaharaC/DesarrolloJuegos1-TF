@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour
     [SerializeField] Material bg2;
     [SerializeField] Material bg3;
     [SerializeField] Material bg4;
+    [SerializeField] GameObject InstructionsPanel;
+    [SerializeField] Button InstructionsButton;
     private float Tiempo = 60.0f;
     public int Level;
 
@@ -34,8 +36,14 @@ public class GameController : MonoBehaviour
                 City.material = bg4;
                 break;
         }
+        Time.timeScale = 0;
+        InstructionsButton.onClick.AddListener(() => goGame());
     }
 
+    void goGame(){
+        InstructionsPanel.SetActive(false);
+        Time.timeScale = 1;
+    }
     // Update is called once per frame
     void Update()
     {
